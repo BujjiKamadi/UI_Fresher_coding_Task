@@ -1,0 +1,25 @@
+.homeContainer {
+  position: relative;
+}
+.homeRow{
+  position: absolute;
+  top:40px;
+  width:100%;
+}
+#loginError{
+	color:red;
+	font-size:12px;
+	text-align:center;
+}
+.required:before{
+	content:" *";
+	color:red;
+	font-size:20px;
+}
+#mandatoryError,#emailError, #pwdError, #mobilenoError, #passwordError,#yearError,#mmandatoryError,#memailError,#myearError{
+	color:red;
+	font-size:12px;
+}
+.modal .form-group  {
+	padding:20px;
+}
